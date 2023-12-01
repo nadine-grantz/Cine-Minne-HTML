@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: beige;
+    margin: 0;
+    position: relative;
+}
+.card__bookmark {
+    position: absolute;
+    font-size: 50px;
+    top: 20px;
+    left: 20px;
+}
+h1 {
+    color: hotpink;
+    background-color: blueviolet;
+    padding: 50px;
+    margin: 0;
+    border: 5px solid;
+    text-align: center;
+}
+.pics {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 50%;
+}
+img {
+    height: 150px;
+    border-radius: 10%;
+}
+.movie{
+    height: 150px;
+    border: 5px solid black;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#introduction {
+    text-align: center;
+}
+#button {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: 5px solid green;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.egal {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+}
